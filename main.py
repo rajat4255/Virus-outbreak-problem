@@ -1,6 +1,14 @@
-def virus_test(strlist):
-    strlist[0]=input()
-    N=int(input())
-    for i in range(1,N):
+def Virus_test(strchar):
+   N=int(input())
+   sample=list()
+   for i in range(0,N):
+      sample.insert(i,input())
+       
+   if N>0 and N<11:
+        print(sample) 
+           # TODO: write code...
+   else:
+       return "invalid input"
 
- 
+print(Virus_test(input()))        
+        
